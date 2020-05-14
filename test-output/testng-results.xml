@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6990" started-at="2020-05-01T18:55:22 EDT" finished-at="2020-05-01T18:55:29 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6990" started-at="2020-05-01T18:55:22 EDT" finished-at="2020-05-01T18:55:29 EDT">
+      <class name="libraryAPIs.AddBook">
+        <test-method status="PASS" signature="addBookAPI(java.lang.String, java.lang.String)[pri:0, instance:libraryAPIs.AddBook@48503868]" name="addBookAPI" duration-ms="3423" started-at="2020-05-01T18:55:22 EDT" data-provider="BookData" finished-at="2020-05-01T18:55:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcfray]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2272]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookAPI -->
+        <test-method status="PASS" signature="addBookAPI(java.lang.String, java.lang.String)[pri:0, instance:libraryAPIs.AddBook@48503868]" name="addBookAPI" duration-ms="702" started-at="2020-05-01T18:55:25 EDT" data-provider="BookData" finished-at="2020-05-01T18:55:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cdcway]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2204]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookAPI -->
+        <test-method status="PASS" signature="addBookAPI(java.lang.String, java.lang.String)[pri:0, instance:libraryAPIs.AddBook@48503868]" name="addBookAPI" duration-ms="686" started-at="2020-05-01T18:55:26 EDT" data-provider="BookData" finished-at="2020-05-01T18:55:27 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rayjae]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2931]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBookAPI -->
+        <test-method status="PASS" signature="deleteABook(java.lang.String, java.lang.String)[pri:0, instance:libraryAPIs.AddBook@48503868]" name="deleteABook" duration-ms="704" started-at="2020-05-01T18:55:27 EDT" data-provider="BookData" finished-at="2020-05-01T18:55:27 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcfray]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2272]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteABook -->
+        <test-method status="PASS" signature="deleteABook(java.lang.String, java.lang.String)[pri:0, instance:libraryAPIs.AddBook@48503868]" name="deleteABook" duration-ms="713" started-at="2020-05-01T18:55:27 EDT" data-provider="BookData" finished-at="2020-05-01T18:55:28 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cdcway]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2204]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteABook -->
+        <test-method status="PASS" signature="deleteABook(java.lang.String, java.lang.String)[pri:0, instance:libraryAPIs.AddBook@48503868]" name="deleteABook" duration-ms="715" started-at="2020-05-01T18:55:28 EDT" data-provider="BookData" finished-at="2020-05-01T18:55:29 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rayjae]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2931]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteABook -->
+      </class> <!-- libraryAPIs.AddBook -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
