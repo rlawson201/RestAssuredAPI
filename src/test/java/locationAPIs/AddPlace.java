@@ -19,7 +19,7 @@ public class AddPlace {
 		//Add place info
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
 		String response = given().log().all().queryParam("key", "qaclick123").header("Content-Type", "application/json")
-				.body(Payload.addPlacePayload)
+				.body(Payload.addPlacePayload())
 				.when().post("maps/api/place/add/json")
 				.then().log().all()
 				.assertThat()
@@ -51,7 +51,7 @@ public class AddPlace {
 			
 	}	
 
-	@Test (priority=2)
+/*	@Test (priority=2)
 	public void UpdatePlace() {
 		
 		//Update place info
@@ -103,6 +103,6 @@ public class AddPlace {
 		.header("Server", "Apache/2.4.18 (Ubuntu)").header("Access-Control-Allow-Methods", "POST").header("Content-Type", "application/json;charset=UTF-8")
 		.body("msg", equalTo("Get operation failed, looks like place_id  doesn't exists"));
 		
-	}
+	} */
 
 }
